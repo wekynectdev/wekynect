@@ -1,0 +1,62 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hosted-media-wrapper-youtube {
+    width: 320px;
+    height: auto;
+  }
+  .hosted-media-wrapper-vimeo {
+    width: 380px;
+    height: auto;
+    margin: auto;
+  }
+  .btn-blogdv {
+    margin: auto;
+    text-align: center !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hosted-media-wrapper-youtube {
+    width: 560px;
+    height: auto;
+  }
+  .hosted-media-wrapper-vimeo {
+    width: 580px;
+    height: auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hosted-media-wrapper-youtube {
+    width: 560px;
+    height: 315px;
+  }
+  .hosted-media-wrapper-vimeo {
+    width: 640px;
+    height: 360px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 953px) {
+  .hosted-media-wrapper-youtube {
+    width: 560px;
+    height: 315px;
+  }
+  .hosted-media-wrapper-vimeo {
+    width: 640px;
+    height: 360px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hosted-media-wrapper-youtube {
+    width: 560px;
+    height: 315px;
+  }
+  .hosted-media-wrapper-vimeo {
+    width: 640px;
+    height: 360px;
+  }
+}

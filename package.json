@@ -1,0 +1,29 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@kentico/kontent-delivery": "^10.0.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@types/material-ui": "^0.21.8",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "latest",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
